@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -incremental tester.tester -L unisims_ver -L unimacro_ver -L xilinxcorelib_ver -L tester=..\..\lib\tester -L test=..\..\lib\tests\test_system -L reference=..\..\lib\reference -L uut=..\..\lib\uut -o tester.exe 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Starting static elaboration
+Completed static elaboration
+Compiling module sensors_input
+Compiling module division
+Compiling module output_display
+Compiling module temperature_top
+Compiling module ref_sensors_input(SENSOR_NUMBER=...
+Compiling module ref_division(TEMP_WIDTH=8)
+Compiling module ref_output_display(TEMP_MIN=19,T...
+Compiling module ref_temperature_top
+Compiling module ref_division
+Compiling module adapter
+Compiling module generate_stimuls
+Compiling module tester
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable tester.exe
+Fuse Memory Usage: 31568 KB
+Fuse CPU Usage: 296 ms
